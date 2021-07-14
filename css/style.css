@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #929292;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+/*about*/
+.featured {
+    margin-top: 80px;
+}
+.about {
+    margin-top: 100px;
+    overflow-x: hidden;
+
+}
+.about img {
+    max-width: 100%;
+    width: 30px;
+    margin-right: 1rem;
+}
+.about .item-4 {
+    border: 1px solid #23a455; 
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.about .item  {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.about .item .item-content h2 {
+    font-family: Roboto Slab;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.9px;
+    color: rgb(41, 41, 41);
+}
+
+.about .item .item-content p {
+    font-family: Roboto Slab;
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 22.68px
+    color: rgb(153, 153, 153);
+}
+
+
+/*trending*/
+.trending {
+    overflow-x: hidden;
+    margin-top: 40px;
+}
+
+.trending .section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*banner*/
+.banner {
+    margin-top: 80px;
+    overflow-x: hidden;
+}
+
+.banner-2 {
+    grid-gap: 0 30px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/*featured-banner*/
+.featured-banner {
+    margin-top: 80px;
+    overflow-x: hidden;
+}
+.featured-banner img{
+    max-width: 100%;
+}
+.banner-3 {
+    grid-gap: 30px;
+}
+
+
+/*footer*/
+footer {
+    overflow-x: hidden;
+    margin-top: 80px;
+}
+
+footer .footer-content h3 {
+    font-family: Roboto Slab;
+    font-size: 18px ;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgb(51, 51, 51);
+}
+
+footer .footer-content ul {
+    margin-top: 20px;
+}
+footer .footer-content ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+footer .footer-content ul li a {
+    font-family: Roboto Slab;
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer .footer-content ul li a:hover {
+    color: rgb(120, 162, 6);
+}
+
+footer p {
+    font-family: Roboto Slab;
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgb(85, 85, 85);  
+}
+
+footer .contact {
+    margin-top: 20px;
+}
+
+footer .contact li {
+    font-family: Roboto Slab;
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 27.2px;
+    color: rgb(85, 85, 85);    
+}
+
+footer .logo {
+    color: var(--main-color);
+}
